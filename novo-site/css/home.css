@@ -498,147 +498,10 @@ a {
     }
 }
 
-@media screen and (max-width: 510px){
-
-    #menu nav {
-        display: none;
-    }
-
-    #menu-mobile {
-        display: block;
-
-    }
-
-    #menu-mobile img{
-       display: inline-block;
-       margin-left:45%;
-       width: 50px;
-       margin-top: 15px;
-    }
-
-    #menu-mobile ul{
-        background-color: #f00;
-        display: none;
-        
-        
-    }
-
-    #menu-mobile li{
-        display: block;
-        width: 100%;
-        text-align: center;
-        font-size: 17px;
-        border-bottom: 1px solid #fff;
-    }
-
-    #menu-mobile a{
-        color: #fff;
-    }
-
-    .menu-logo{
-        display: block;
-    }
-
-    .menu-logo i {
-        font-size: 25px;
-        background-color: #111;
-        padding: 16px;
-        color: #fff;
-        cursor: pointer;
-      
-    }
-
-    .menu-logo img{
-        width: 50px;
-        margin-left: 32%;
-        margin-top: 10px;
-    }
-
-    .banner{
-        width: 100%;
-    }
-
-    .sessao1{
-        width: 100%;
-        padding: 0 2%;
-        text-align: center;
-       
-    }
-
-    .conteudo1 h1{
-        font-size: 25px;
-    }
-
-    .conteudo1 p{
-        text-align: left;
-        font-size: 17px;
-        margin: 15px 0;
-    }
-
-    .banner-padaria .overplay > p, h2{
-        margin: 10px 0;
-        display: flex;
-        justify-content: center;
-        position: static;
-    }
-
-    .overplay h2{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        text-align: left;
-        position: static;
-        margin-top: 30%;
-    }
-
-    .sessao2{
-        width: 100%;
-        float: none;
-        margin: 0 auto;
-    }
-
-    .frios, .paes{
-
-        width: 100%;
-        height: 500px;
-    }
-
-    .frios h2, .paes h2{
-        margin-top: 40px;
-    }
-
-    .starbem{
-        margin-bottom: 20px;
-    }
-
-    .conteudo3 h1{
-        font-size: 25px;
-    }
-
-    .banner-acougue > .overplay p{
-        margin-top: 0;
-    }
-
-    .banner-acougue, .banner-lojas, .banner-padaria{
-        height: 400px;
-    }
-
-    .banner-lojas > .overplay p{
-        margin-top: 0;
-        text-align: center;
-        font-size: 17px;
-        
-    }
-
-    .conteudo-rodape h3{
-        font-size: 1rem;
-    }
-
-}
 
 
 
-@media screen and (min-width:1024px){
+@media screen and (max-width:1024px){
 
    
 
@@ -785,6 +648,144 @@ a {
         font-size: 1rem;
     }
 
+
+}
+
+@media screen and (max-width: 510px){
+
+    #menu nav {
+        display: none;
+    }
+
+    #menu-mobile {
+        display: block;
+
+    }
+
+    #menu-mobile img{
+       display: inline-block;
+       margin-left:45%;
+       width: 50px;
+       margin-top: 15px;
+    }
+
+    #menu-mobile ul{
+        background-color: #f00;
+        display: none;
+        
+        
+    }
+
+    #menu-mobile li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        border-bottom: 1px solid #fff;
+    }
+
+    #menu-mobile a{
+        color: #fff;
+    }
+
+    .menu-logo{
+        display: block;
+    }
+
+    .menu-logo i {
+        font-size: 25px;
+        background-color: #111;
+        padding: 16px;
+        color: #fff;
+        cursor: pointer;
+      
+    }
+
+    .menu-logo img{
+        width: 50px;
+        margin-left: 32%;
+        margin-top: 10px;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .sessao1{
+        width: 100%;
+        padding: 0 2%;
+        text-align: center;
+       
+    }
+
+    .conteudo1 h1{
+        font-size: 25px;
+    }
+
+    .conteudo1 p{
+        text-align: left;
+        font-size: 17px;
+        margin: 15px 0;
+    }
+
+    .banner-padaria .overplay > p, h2{
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        position: static;
+    }
+
+    .overplay h2{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        text-align: left;
+        position: static;
+        margin-top: 30%;
+    }
+
+    .sessao2{
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .frios, .paes{
+
+        width: 100%;
+        height: 500px;
+    }
+
+    .frios h2, .paes h2{
+        margin-top: 40px;
+    }
+
+    .starbem{
+        margin-bottom: 20px;
+    }
+
+    .conteudo3 h1{
+        font-size: 25px;
+    }
+
+    .banner-acougue > .overplay p{
+        margin-top: 0;
+    }
+
+    .banner-acougue, .banner-lojas, .banner-padaria{
+        height: 400px;
+    }
+
+    .banner-lojas > .overplay p{
+        margin-top: 0;
+        text-align: center;
+        font-size: 17px;
+        
+    }
+
+    .conteudo-rodape h3{
+        font-size: 1rem;
+    }
 
 }
 
