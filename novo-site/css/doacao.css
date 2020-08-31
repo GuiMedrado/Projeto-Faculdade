@@ -254,6 +254,164 @@ a {
 
 }
 
+
+
+
+
+@media screen and (max-width:768px){
+
+    #menu nav {
+        display: block;
+    
+    }
+
+    #menu {
+        
+        background-position:0;
+
+    }
+
+
+    #menu-mobile {
+        display: none;
+
+    }
+
+    #menu-mobile img{
+       display: inline-block;
+       margin-left:45%;
+       width: 50px;
+       margin-top: 15px;
+        
+    }
+
+    #menu-mobile ul{
+        background-color: #f00;
+        display: none;
+        
+        
+    }
+
+    #menu-mobile li{
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        border-bottom: 1px solid #fff;
+    }
+
+    #menu-mobile a{
+        color: #fff;
+    }
+
+    .menu-logo{
+        display: none;
+    }
+
+    .menu-logo i {
+        font-size: 25px;
+        background-color: #111;
+        padding: 16px;
+        color: #fff;
+        cursor: pointer;
+      
+    }
+
+    .menu-logo img{
+        width: 50px;
+        margin-left: 32%;
+        margin-top: 10px;
+    }
+
+    .banner > .overplay h1{
+        font-size: 1.8rem;
+        position: static;
+        margin-top: 30%;
+    }
+
+    .banner{
+        height: 400px;
+    }
+
+    .sessao1{
+        width: 100%;
+        margin: 0;
+    }
+
+    .flex-section{
+        display: block;
+    }
+
+    .conteudo1{
+        width: 100%;
+    }
+
+
+    .foto-flex{
+        width: 100%;
+        margin: 0;
+        position: static;
+        padding: 0 2%;
+        
+    }
+
+    .foto-flex img{
+        width: 100%;
+        margin-bottom: 0;
+        border-radius: 0;
+        box-shadow: 0px 0px 0px 0px;
+        
+    }
+
+    .sessao2 h3{
+        font-size: 22px;
+    }
+
+    .sessao2 .conteudo2{
+        width: 100%;
+        float: none;
+        padding: 0 2%;
+    }
+
+    .conteudo2{
+        margin: 25px 0 ; 
+    }
+
+    .conteudo2 i{
+        font-size: 100px;
+    }
+
+    .btn{
+        padding: 0;
+    }
+
+    .btn input{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    
+    .conteudo-rodape h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+
+    #menu{
+
+        background-position: 10%;
+
+    }
+    .banner > .overplay h1{
+        font-size: 30px;
+        margin-top: 20%;
+    }
+
+    .foto-flex img{
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width:510px){
 
     #menu nav {
@@ -381,5 +539,7 @@ a {
         font-size: 1rem;
     }
 }
+
+
     
 
